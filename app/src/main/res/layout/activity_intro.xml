@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_inscrever"
+        android:id="@+id/btn_entrar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -34,7 +34,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_inscrever"
+        android:id="@+id/btn_entrar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -42,9 +42,9 @@
         android:text="Inscrever-se"
         android:textColor="#FFD60A"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="@id/btn_inscrever"
-        app:layout_constraintStart_toStartOf="@id/btn_inscrever"
-        app:layout_constraintTop_toBottomOf="@+id/btn_inscrever" />
+        app:layout_constraintEnd_toEndOf="@id/btn_entrar"
+        app:layout_constraintStart_toStartOf="@id/btn_entrar"
+        app:layout_constraintTop_toBottomOf="@+id/btn_entrar" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -53,8 +53,8 @@
         android:text="Esqueceu sua senha?"
         android:textColor="@color/white"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="@id/btn_inscrever"
-        app:layout_constraintStart_toStartOf="@+id/btn_inscrever"
-        app:layout_constraintTop_toBottomOf="@+id/btn_inscrever" />
+        app:layout_constraintEnd_toEndOf="@id/btn_entrar"
+        app:layout_constraintStart_toStartOf="@+id/btn_entrar"
+        app:layout_constraintTop_toBottomOf="@+id/btn_entrar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
