@@ -13,6 +13,10 @@ class IntroActivity : AppCompatActivity() {
         binding = ActivityIntroBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.btnEntrar.setOnClickListener {
+            startActivity(Intent(this, LogInActivity::class.java))
+        }
+
         binding.btnInscrever.setOnClickListener {
             startActivity(Intent(this, SignUpActivity::class.java))
         }
