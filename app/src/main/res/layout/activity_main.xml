@@ -129,6 +129,18 @@
                     app:layout_constraintTop_toBottomOf="@+id/tv_cabelo" />
 
                 <TextView
+                    android:id="@+id/tv_reserve"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:text="Reserve agora"
+                    android:textColor="#FFD60A"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@+id/tv_melhor"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_melhor" />
+
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
@@ -142,10 +154,10 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                tools:itemCount="9"/>
-
+                tools:itemCount="9" />
 
 
         </LinearLayout>
