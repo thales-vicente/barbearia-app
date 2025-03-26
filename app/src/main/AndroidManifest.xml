@@ -13,16 +13,19 @@
         android:theme="@style/Theme.BarbeariaApp"
         tools:targetApi="31">
         <activity
-            android:name=".LogInActivity"
+            android:name=".View.ServicoActivity"
             android:exported="false" />
         <activity
-            android:name=".SignUpActivity"
+            android:name=".View.LogInActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".View.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".IntroActivity"
+            android:name=".View.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.IntroActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

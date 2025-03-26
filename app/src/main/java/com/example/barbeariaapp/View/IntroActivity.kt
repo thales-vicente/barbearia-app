@@ -1,4 +1,4 @@
-package com.example.barbeariaapp
+package com.example.barbeariaapp.View
 
 import android.content.Intent
 import android.os.Bundle
